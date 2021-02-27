@@ -1,0 +1,247 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background: url("images/BackIT.png") no-repeat center; */
+}
+
+/* body {
+    background-image: url("images/BackIT.png");
+    background-repeat: no-repeat;
+} */
+
+header {
+    background: #0c0b3f url(images/cpu.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header:after {
+    content: '';
+    display: block;
+    background: url(images/shadow.png) center repeat-x;
+    height: 140px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.wrapper {
+    width: 93.75%;
+    max-width: 960px;
+    margin: auto;
+}
+
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 8px;
+    /* background-color: #757575; */
+}
+
+.logo {
+    background: url(images/Portfolio3.png) no-repeat;
+    background-size: cover;
+    text-indent: -9999999px;
+    display: block;
+    width: 200px;
+    height: 75px;
+    margin-left: 30px;
+}
+
+.menu {
+    display: flex;
+    /* margin-top: 40px 0 0 0; */
+    list-style: none;
+    padding: 0;
+    margin-right: 30px;
+    justify-content: flex-end;
+    /* background-color: #757575; */
+    align-items: center;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 15px 20px;
+}
+
+.menu a:after {
+    content: '';
+    background-color: aliceblue;
+    height: 2px;
+    width: 0;
+    display: block;
+    margin: 5px auto;
+    transition: .5s;
+}
+
+.menu a:hover:after {
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 25vh 0 0 0;
+    text-shadow: 6px 6px 6px black;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    text-shadow: 6px 6px 6px black;
+}
+
+.content {
+    background-color: #f0f0f0;
+    margin-top: 40px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+
+/* ======================================== */
+/* ===============Responsive=============== */
+/* ======================================== */
+
+@media (max-width:1024px) and (min-width:415px){
+    body {
+        font-size: 200%;
+    }
+
+    .logo {
+        width: 250px;
+    }
+    header {
+        background: #0c0b3f url(images/cpu.png) no-repeat;
+        background-size: cover;
+        height: 60vh;
+        position: relative;
+    }
+
+    header h1 {
+        color: white;
+        text-align: center;
+        margin: 5vh 0 0 0;
+        text-shadow: 6px 6px 6px black;
+    }
+
+    /* header:after {
+        content: '';
+        display: block;
+        background: url(images/shadow.png) center repeat-x;
+        height: 140px;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+    } */
+}
+
+@media (max-width:414px) and (min-width:319px){
+    header {
+        background: #0c0b3f url(images/cpu.png) no-repeat;
+        background-size: cover;
+        height: 60vh;
+        position: relative;
+    }
+
+
+    nav{
+        display:block;
+        align-items: center;
+        justify-content: space-between;
+        padding:20px 8px;
+        /* background-color: #757575; */
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    ul li:first-child {
+        margin: 0;
+    }
+
+    a {
+        text-align: center; 
+        margin: auto;
+    }
+
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        color: black;
+        text-align: center;
+        margin: 10vh 0 0 0;
+        text-shadow: 6px 6px 6px black;
+    }
+    
+    header h2 {
+        color: black;
+        text-align: center;
+        text-shadow: 6px 6px 6px black;
+    }
+
+    .content h1 {
+        margin-top: 150px;
+    }
+
+@media (max-width:320px){
+    header {
+        background: #0c0b3f url(images/cpu.png) no-repeat;
+        background-size: cover;
+        height: 80vh;
+        position: relative;
+    }
+
+
+    nav{
+        display:block;
+        align-items: center;
+        justify-content: space-between;
+        padding:20px 8px;
+        /* background-color: #757575; */
+    }
+
+    ul{
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    ul li:first-child {
+        margin: 0;
+    }
+
+    a {
+        text-align: center; 
+        margin: auto;
+    }
+
+    section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header h1 {
+        color: black;
+        text-align: center;
+        margin: 15vh 0 0 0;
+        text-shadow: 6px 6px 6px black;
+    }
+    
+    header h2 {
+        color: black;
+        text-align: center;
+        text-shadow: 6px 6px 6px black;
+    }
+
+    .content h1 {
+        margin-top: 150px;
+    }
+}
