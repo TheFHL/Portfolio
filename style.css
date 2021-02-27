@@ -9,7 +9,7 @@ body {
 } */
 
 header {
-    background: #0c0b3f url(img/cpu.png) no-repeat;
+    background: #0c0b3f url(Site/img/cpu.png) no-repeat;
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -18,7 +18,7 @@ header {
 header:after {
     content: '';
     display: block;
-    background: url(img/shadow.png) center repeat-x;
+    background: url(Site/img/shadow.png) center repeat-x;
     height: 140px;
     width: 100%;
     position: absolute;
@@ -40,7 +40,7 @@ nav{
 }
 
 .logo {
-    background: url(img/Portfolio3.png) no-repeat;
+    background: url(Site/img/Portfolio3.png) no-repeat;
     background-size: cover;
     text-indent: -9999999px;
     display: block;
@@ -115,7 +115,7 @@ header h2 {
         width: 250px;
     }
     header {
-        background: #0c0b3f url(img/cpu.png) no-repeat;
+        background: #0c0b3f url(Site/img/cpu.png) no-repeat;
         background-size: cover;
         height: 60vh;
         position: relative;
@@ -141,7 +141,7 @@ header h2 {
 
 @media (max-width:414px) and (min-width:319px){
     header {
-        background: #0c0b3f url(img/cpu.png) no-repeat;
+        background: #0c0b3f url(Site/img/cpu.png) no-repeat;
         background-size: cover;
         height: 60vh;
         position: relative;
@@ -194,7 +194,7 @@ header h2 {
 
 @media (max-width:320px){
     header {
-        background: #0c0b3f url(img/cpu.png) no-repeat;
+        background: #0c0b3f url(Site/img/cpu.png) no-repeat;
         background-size: cover;
         height: 80vh;
         position: relative;
